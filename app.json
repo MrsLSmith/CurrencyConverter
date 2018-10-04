@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Currency Converter",
+    "slug": "Currency-Converter",
+    "privacy": "unlisted",
+    "sdkVersion": "26.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./appIcon.png",
+    "loading": {
+      "icon": "./loadingIcon.png",
+      "hideExponentText": true
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.leaannsmith.CurrencyConverter",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.leaannsmith.CurrencyConverter",
+      "versionCode": 1
+    }
+  }
+}
